@@ -20,7 +20,7 @@ const socials = [
 	{
 		icon: <Instagram size={20} />,
 		href: "https://www.instagram.com/smithorigin.id/",
-		label: "Github",
+		label: "Instagram",
 		handle: "@smithorigin.id",
 	},
 ];
