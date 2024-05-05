@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "Smithorigin",
     images: [
       {
-        url: "https://smithorigin.plj.my.id/og.png",
+        url: "https://smithorigin.plj.my.id/og.jpg",
         width: 1920,
         height: 1080,
       },

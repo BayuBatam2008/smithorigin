@@ -1,27 +1,27 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Instagram, Mail, ShoppingBasket } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
-		label: "Twitter",
-		handle: "@chronark_",
+		icon: <ShoppingBasket size={20} />,
+		href: "https://tokopedia.link/AMw6j0mJlJb",
+		label: "Tokopedia",
+		handle: "Smithorigin",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
-		label: "Email",
-		handle: "dev@chronark.com",
+		href: "mailto:smithorigin@plj.my.id",
+		label: "Keluh Kesah Smithorigin",
+		handle: "smithorigin@plj.my.id",
 	},
 	{
-		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
+		icon: <Instagram size={20} />,
+		href: "https://www.instagram.com/smithorigin.id/",
 		label: "Github",
-		handle: "chronark",
+		handle: "@smithorigin.id",
 	},
 ];
 
