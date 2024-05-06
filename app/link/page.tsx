@@ -8,7 +8,7 @@ const socials = [
 	{
 		icon: <ShoppingBasket size={20} />,
 		href: "https://tokopedia.link/AMw6j0mJlJb",
-		label: "Tokopedia",
+		label: "Minta photocard femboy bisa dapet beneran disini",
 		handle: "Smithorigin",
 	},
 	{
@@ -20,7 +20,7 @@ const socials = [
 	{
 		icon: <Instagram size={20} />,
 		href: "https://www.instagram.com/smithorigin.id/",
-		label: "Instagram",
+		label: "DM mereka lalu minta nungging",
 		handle: "@smithorigin.id",
 	},
 ];

@@ -46,7 +46,7 @@ export default async function ProjectsPage() {
             Dosa Besar Smithorigin
           </h2>
           <p className="mt-4 text-zinc-400">
-            Dosa besar Smithorigin yang didapatkan member discord GTID dari owner toko.
+            Dosa besar Smithorigin yang didapatkan dari berbagai platform yang dikumpulkan oleh member discord GTID.
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
@@ -86,7 +86,7 @@ export default async function ProjectsPage() {
                 </p>
                 <div className="absolute bottom-4 md:bottom-8">
                   <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block">
-                    Dosa lain <span aria-hidden="true">&rarr;</span>
+                    Cari tau <span aria-hidden="true">&rarr;</span>
                   </p>
                 </div>
               </article>
