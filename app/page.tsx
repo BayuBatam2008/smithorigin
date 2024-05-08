@@ -42,7 +42,7 @@ export default function Home() {
             className="underline duration-500 hover:text-zinc-300"
           >
             Smithorigin
-          </Link> ato lu gua nungging nanti.
+          </Link> ato lu gua nungging nanti. <i>Semua ini candaan</i>
         </h2>
       </div>
     </div>
