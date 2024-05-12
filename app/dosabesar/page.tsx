@@ -46,7 +46,7 @@ export default async function ProjectsPage() {
             Dosa Besar Smithorigin
           </h2>
           <p className="mt-4 text-zinc-400">
-            Dosa besar Smithorigin yang didapatkan dari berbagai platform yang dikumpulkan oleh member discord GTID.
+            Dosa besar Smithorigin yang didapatkan dari berbagai platform yang dikumpulkan oleh member discord GTID. <i>Mau rikues?, dm di discord. (username: pljs)</i>
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
