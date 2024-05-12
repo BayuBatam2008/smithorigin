@@ -40,6 +40,12 @@ export const Navigation: React.FC = () => {
 						>
 							Link
 						</Link>
+						<Link
+							href="https://github.com/BayuBatam2008/smithorigin.git"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+						>
+							GitHub
+						</Link>
 					</div>
 
 					<Link

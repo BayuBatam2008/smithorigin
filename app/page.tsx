@@ -5,6 +5,7 @@ import Particles from "./components/particles";
 const navigation = [
   { name: "Dosa Besar", href: "/dosabesar" },
   { name: "Link", href: "/link" },
+  { name: "GitHub", href: "https://github.com/BayuBatam2008/smithorigin.git" },
 ];
 
 export default function Home() {
