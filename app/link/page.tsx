@@ -14,7 +14,7 @@ const socials = [
 	{
 		icon: <Mail size={20} />,
 		href: "mailto:smithorigin@plj.my.id",
-		label: "Keluh Kesah Smithorigin",
+		label: "Keluh Kesah Smithorigin (ini emailnya rill btw, kalo penasaran coba aja)",
 		handle: "smithorigin@plj.my.id",
 	},
 	{
