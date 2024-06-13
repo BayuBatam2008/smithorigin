@@ -26,6 +26,9 @@ dependencies:
   framer-motion:
     specifier: ^11.2.10
     version: 11.2.10(react-dom@18.3.1)(react@18.3.1)
+  ga-gtag:
+    specifier: ^1.2.0
+    version: 1.2.0
   lucide-react:
     specifier: ^0.394.0
     version: 0.394.0(react@18.3.1)
@@ -1681,6 +1684,10 @@ packages:
     os: [darwin]
     requiresBuild: true
     optional: true
+
+  /ga-gtag@1.2.0:
+    resolution: {integrity: sha512-j9gxutMdpGMdwaX1SzOG31Ddm+IGFjeNf+N3Z5g+BBpS8FSXOALlrM+ORIGc/QKszGJEDlw+6PfIsJZICsqsGQ==}
+    dev: false
 
   /get-caller-file@2.0.5:
     resolution: {integrity: sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==}
