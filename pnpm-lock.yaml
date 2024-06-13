@@ -20,6 +20,12 @@ dependencies:
   '@upstash/redis':
     specifier: ^1.31.5
     version: 1.31.5
+  '@vercel/analytics':
+    specifier: ^1.3.1
+    version: 1.3.1(next@14.2.4)(react@18.3.1)
+  '@vercel/speed-insights':
+    specifier: ^1.0.12
+    version: 1.0.12(next@14.2.4)(react@18.3.1)
   contentlayer:
     specifier: ^0.3.4
     version: 0.3.4(esbuild@0.20.2)(markdown-wasm@1.2.0)
@@ -1151,6 +1157,50 @@ packages:
     resolution: {integrity: sha512-2MatqeqftroSJ9Q+pqbyGAIwXX6KEPtUTUna2c/fq09h12ffwvltDTgfppeF+NzJo/SyZfHY8e1RoflduMbz1A==}
     dependencies:
       crypto-js: 4.2.0
+    dev: false
+
+  /@vercel/analytics@1.3.1(next@14.2.4)(react@18.3.1):
+    resolution: {integrity: sha512-xhSlYgAuJ6Q4WQGkzYTLmXwhYl39sWjoMA3nHxfkvG+WdBT25c563a7QhwwKivEOZtPJXifYHR1m2ihoisbWyA==}
+    peerDependencies:
+      next: '>= 13'
+      react: ^18 || ^19
+    peerDependenciesMeta:
+      next:
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      next: 14.2.4(@opentelemetry/api@1.4.1)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      server-only: 0.0.1
+    dev: false
+
+  /@vercel/speed-insights@1.0.12(next@14.2.4)(react@18.3.1):
+    resolution: {integrity: sha512-ZGQ+a7bcfWJD2VYEp2R1LHvRAMyyaFBYytZXsfnbOMkeOvzGNVxUL7aVUvisIrTZjXTSsxG45DKX7yiw6nq2Jw==}
+    requiresBuild: true
+    peerDependencies:
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19
+      svelte: ^4
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
+    dependencies:
+      next: 14.2.4(@opentelemetry/api@1.4.1)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
     dev: false
 
   /acorn-jsx@5.3.2(acorn@8.10.0):
@@ -3526,6 +3576,10 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
+    dev: false
+
+  /server-only@0.0.1:
+    resolution: {integrity: sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==}
     dev: false
 
   /shiki@1.4.0:
